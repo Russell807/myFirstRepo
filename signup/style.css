@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin:0; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #0b2c23;
+    margin-bottom: 30px;
+}
+.EP {
+    display: grid;
+    place-items: center;
+    
+    
+
+}
+.EP input{
+    padding: 6px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 30px;
+    
+}
+
+#rm {
+    top:10px;
+    color: gray;
+       position: relative;
+      left: 480px;
+       font-size: 12px;
+      }
+ .btn1 {
+display: grid;
+place-items: center;
+padding: 20px;
+
+
+      }
+      .btn1 button {
+        width: 32%;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        background-color: #0b4737;
+        color: white;
+
+      }
+      .btn2 button {
+        width: 210px;
+        padding: 7px;
+        border-radius: 10px;
+        border: none;
+
+      }
+      .btn2 {
+        text-align: center;
+        justify-content: space-between;
+      }
+      .fa-facebook {
+        color: white;
+        font-size: 20px;
+      
+      }
+      .fb {
+        background-color: rgb(0, 110, 255);
+      }
+      .google {
+        background-color: rgba(233, 188, 66, 0.993);
+      }
+      .fa-google {
+    
+        background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #FFFF00 270deg) 73% 55%/150% 150% no-repeat;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        font-size: 20px;
+   
+  }
+  .em {
+    margin-bottom: -20px;
+  }
